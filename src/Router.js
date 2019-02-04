@@ -9,7 +9,7 @@ const Router = props => {
 
     <Switch>
       <Route path='/dashboard' component={Dashboard} />
-      <Route path='/post/:postid' component={Post} />
+      <Route path='/post/:id' component={Post} />
       <Route path='/new' component={Form} />
       <Route path='/' component={Auth} />
     </Switch>
